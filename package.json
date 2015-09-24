@@ -18,7 +18,7 @@
     "url": "https://github.com/xudafeng/autoresponsive-common.git"
   },
   "scripts": {
-    "prepublish": "babel lib/ --out-dir build/",
+    "postinstall": "babel lib/ --out-dir build/",
     "lint": "make lint",
     "test": "make test"
   },
